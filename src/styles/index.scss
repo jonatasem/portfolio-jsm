@@ -1,0 +1,32 @@
+
+@use './aboutPage.scss';
+@use './skillsPage.scss';
+@use './homePage.scss';
+@use './projectPage.scss';
+
+//resetando margem e espaçamentos
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #09010C;
+  color: white;
+  max-width: 1440px;
+  margin: 0 auto;  
+  font-family: "Nata Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

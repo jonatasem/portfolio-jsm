@@ -1,0 +1,96 @@
+.container-projects {
+    padding: 1rem;
+
+    .projects-main {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 1040px;
+
+        .title-project {
+            text-align: center; 
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 18px;
+                margin: 1rem 0 1.5rem 0;
+                background-image: linear-gradient(to right, #06A0E7, #00FBFC);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color: transparent;
+                background-repeat: no-repeat;
+            }
+        }
+
+        .project-item {
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #ffffff4f;
+            margin: 0 auto 1rem;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 1rem;
+
+            &:nth-child(even){
+                background-image: url(/images/projects/card-first.png);
+                background-size: cover;
+            }
+
+            &:nth-child(odd) {
+                background-image: url(/images/projects/card-last.png);
+                background-size: cover;
+            }
+
+
+            .item-left {
+                width: 100%;
+                max-width: 488px;
+                padding: 1rem 0 1rem 1.5rem;
+
+                ul {
+                    margin: 1rem;
+
+                    li {
+                        margin: 0.5rem 0;
+                        list-style-type: disc;
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    max-width: 150px;
+                    height: 45px;
+                    border: transparent;
+                    background-image: linear-gradient(to right, #1781B2, #08A3A4);
+                    border-radius: 1.5rem;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: white;
+                    margin: 1.5rem 0 0 0;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: silver;
+                    }
+                }
+            }
+
+            .item-right {
+                width: 100%;
+                max-width: 293px;
+
+
+                img {
+                    padding: 1rem;
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+}
