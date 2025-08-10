@@ -84,13 +84,23 @@ export const skillsData = [
 // Dados dos projetos
 export const projectsData = [
     {
-        title: "Dashboard de Gestão",
-        subTitle: "Plataforma de Visualização de Dados",
+        title: "Site de Restaurante",
+        subTitle: "Página de Apresentação e Cardápio Online",
         details: [
-            "Gráficos e relatórios interativos para análise de dados.",
-            "Atualizações em tempo real e widgets personalizáveis para monitoramento."
+            "Cardápio online com imagens de alta qualidade.",
+            "Sistema de reservas integrado e informações de contato."
         ],
-        image: imgAutomec
+        image: imgRestaurant
+    },
+    ,
+    {
+        title: "Análise de Avaliações",
+        subTitle: "Gráfico Interativo de Feedback",
+        details: [
+            "Representação visual do feedback e avaliações de usuários.",
+            "Filtros para visualizar avaliações por data e nota."
+        ],
+        image: imgGraphic
     },
     {
         title: "Página de E-commerce",
@@ -111,21 +121,12 @@ export const projectsData = [
         image: imgMovies
     },
     {
-        title: "Site de Restaurante",
-        subTitle: "Página de Apresentação e Cardápio Online",
+        title: "Dashboard de Gestão",
+        subTitle: "Plataforma de Visualização de Dados",
         details: [
-            "Cardápio online com imagens de alta qualidade.",
-            "Sistema de reservas integrado e informações de contato."
+            "Gráficos e relatórios interativos para análise de dados.",
+            "Atualizações em tempo real e widgets personalizáveis para monitoramento."
         ],
-        image: imgRestaurant
-    },
-    {
-        title: "Análise de Avaliações",
-        subTitle: "Gráfico Interativo de Feedback",
-        details: [
-            "Representação visual do feedback e avaliações de usuários.",
-            "Filtros para visualizar avaliações por data e nota."
-        ],
-        image: imgGraphic
+        image: imgAutomec
     }
 ];

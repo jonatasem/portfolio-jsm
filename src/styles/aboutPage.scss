@@ -68,39 +68,35 @@
                 font-size: 32px;
             }
 
-            h3 {
+            h2 {
                 background-image: linear-gradient(to right, #06A0E7, #00FBFC);
                 -webkit-background-clip: text;
                 background-clip: text;
                 -webkit-text-fill-color: transparent;
                 color: transparent;
                 background-repeat: no-repeat;
+                font-size: 16px;
             }
 
             p {
                 margin: 1.5rem 0;
-                font-size: 14px;
+                font-size: 16px;
             }
 
             .button-about {
-                button {
-                width: 100%;
-                max-width: 150px;
-                height: 45px;
-                border: transparent;
-                background-image: linear-gradient(to right, #1781B2, #08A3A4);
-                border-radius: 1.5rem;
-                font-size: 14px;
-
-                    a {
-                        color: white;   
-                        font-weight: bold;
-
-                        &:hover {
-                            cursor: pointer;
-                            color: silver;
-                        }
-                    }
+                p {
+                    max-width: 150px;
+                    max-height: 45px;
+                    border: transparent;
+                    background-image: linear-gradient(to right, #1781B2, #08A3A4);
+                    border-radius: 1.5rem;
+                    font-size: 14px;
+                    color: white;   
+                    font-weight: bold;
+                    padding: 1rem;
+                    min-width: max-content;
+                    display: flex;
+                    align-items: center;
                 }
             }
         }
@@ -135,6 +131,16 @@
 
             .profile-resume {
                 max-width: none;
+            }
+        }
+    }
+}
+
+@media (max-width:499px) {
+    .container-about {
+        .about-head {
+            .profile-resume {
+                padding: 1.5rem;
             }
         }
     }

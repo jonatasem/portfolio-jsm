@@ -27,9 +27,9 @@ export default function SkillsPage() {
             </article>
             <article className="skills-footer">
                 <div className='footer-title'>
-                    <h1>What I Bring to the Table</h1>
+                    <h1>Minha contribuição</h1>
                     <div></div>
-                    <h2>Technical Skills and Software Expertise</h2>
+                    <h2>Habilidades técnicas e conhecimento em software</h2>
                 </div>
             </article>
         </section>

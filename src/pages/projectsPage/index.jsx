@@ -7,8 +7,8 @@ export default function ProjectsPage(){
         <section className="container-projects" id='projects'>
             <article className="projects-main">
                 <div className="title-project">
-                    <h1>My Work in Action</h1>
-                    <p>Discover how I bring ideas to life through design and creativity.</p>
+                    <h1>Meu Trabalho em Ação</h1>
+                    <p>Descubra como dou vida a ideias por meio do design e da criatividade.</p>
                 </div>
                 {projectsData.map((project, index) => (
                     <div className="project-item" key={index}>
