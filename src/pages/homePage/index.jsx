@@ -53,11 +53,21 @@ export default function HomePage(){
                         <p>Passionate UI/UX designer focused on creating simple, user-friendly designs. Turning ideas into seamless digital experiences</p>
                     </div>
                     <div className="lets-talk">
-                        <button>Lets Talk</button>
-                        <button>Explore my work</button>
+                        <button>
+                            <a href="#contact">
+                                Lets Talk
+                            </a>
+                        </button>
+                        <button>
+                            <a href="#projects">
+                                Explore my work
+                            </a>
+                        </button>
                     </div>
                     <div className='show-more-home'>
-                        <button>Scroll Down</button>
+                        <button>
+                            <a href="#about">Scroll Down</a>
+                        </button>
                         <img src={imgArrow} alt="imagem arrow" />
                     </div>
                 </div>

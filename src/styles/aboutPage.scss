@@ -82,7 +82,8 @@
                 font-size: 14px;
             }
 
-            button {
+            .button-about {
+                button {
                 width: 100%;
                 max-width: 150px;
                 height: 45px;
@@ -90,17 +91,17 @@
                 background-image: linear-gradient(to right, #1781B2, #08A3A4);
                 border-radius: 1.5rem;
                 font-size: 14px;
-                font-weight: bold;
-                color: white;
 
-                &:hover {
-                    cursor: pointer;
-                    color: silver;
+                    a {
+                        color: white;   
+                        font-weight: bold;
+
+                        &:hover {
+                            cursor: pointer;
+                            color: silver;
+                        }
+                    }
                 }
-            }
-
-            .button-about {
-                text-align: end;
             }
         }
     }   

@@ -100,12 +100,16 @@
                 button {
                     font-size: 16px;
                     background-color: transparent;
-                    color: white;
+                    
                     border-radius: 1.5rem;
                     border: 1px solid #c0c0c06e;
 
-                    &:hover {
-                        cursor: pointer;
+                    a {
+                        color: white;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
                     }
 
                     &:first-child {
@@ -131,11 +135,15 @@
                 button {
                     background-color: transparent;
                     border: transparent;
-                    color: white;
                     font-size: 18px;
 
-                    &:hover {
-                        cursor: pointer;
+        
+                    a {
+                        color: white;
+                    
+                        &:hover {
+                            cursor: pointer;
+                        }
                     }
                 }
 
@@ -209,6 +217,24 @@
                         max-width: 90%;
                         margin: 1rem auto;
                     } 
+                }
+                .lets-talk  {
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:399px) {
+    .container-home {
+        .home-main {
+            .layout-home-main {
+                .lets-talk {
+                    button {
+                        font-size: 16px;
+                        max-height: 40px;
+                    }
                 }
             }
         }

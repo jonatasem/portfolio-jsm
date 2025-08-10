@@ -3,7 +3,7 @@ import imgProfile from '/images/about/profile.jpg';
 
 export default function AboutPage(){
     return (
-        <section className="container-about">
+        <section className="container-about" id='about'>
             <article className="about-head">
                 <div className="profile-image">
                     <div className="layout-image">
@@ -17,7 +17,9 @@ export default function AboutPage(){
                         With a passion for design and over 2+ of experience, I’ve worked on diverse projects that range from mobile apps to branding and marketing campaigns. My goal is to deliver designs that are not just beautiful but functional and results-driven
                     </p>
                     <div className="button-about">
-                        <button>Contact</button>
+                        <button>
+                            <a href="#contact">Contact</a>
+                        </button>
                     </div>
                 </div>
             </article>

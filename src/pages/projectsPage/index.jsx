@@ -4,7 +4,7 @@ import { RiCheckDoubleFill } from "react-icons/ri";
 
 export default function ProjectsPage(){
     return (
-        <section className="container-projects">
+        <section className="container-projects" id='projects'>
             <article className="projects-main">
                 <div className="title-project">
                     <h1>My Work in Action</h1>

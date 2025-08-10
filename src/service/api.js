@@ -16,6 +16,7 @@ import imgVercel from '/images/skills/vercel.svg';
 
 import imgLinux from '/images/skills/linux.svg'
 import imgWindows from '/images/skills/windows.svg'
+import imgMac from '/images/skills/mac.svg';
 import imgNext from '/images/skills/next.svg'
 import imgGithub from '/images/skills/github.svg'
 
@@ -37,7 +38,8 @@ export const skillsData = [
             { name: "HTML", image: imgHtml },
             { name: "CSS", image: imgCss },
             { name: "JavaScript", image: imgJs },
-            { name: "React", image: imgReact }
+            { name: "React", image: imgReact },
+            { name: "Next", image: imgNext }
         ]
     },
     {
@@ -63,6 +65,18 @@ export const skillsData = [
         skills: [
             { name: "Vercel", image: imgVercel },
             { name: "Render", image: imgVercel }
+        ]
+    },
+    {
+        title: "Sistemas Operacionais",
+        info: [
+            "Configuração e administração de sistemas para ambientes de desenvolvimento e produção.",
+            "Utilização de linha de comando (CLI) e scripts para automação de tarefas."
+        ],
+        skills: [
+            { name: "Linux", image: imgLinux },
+            { name: "Windows", image: imgWindows },
+            { name: "macOS", image: imgMac }
         ]
     }
 ];
