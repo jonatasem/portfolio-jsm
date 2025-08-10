@@ -5,102 +5,112 @@ import imgAutomec from "/images/projects/web-dashboard.png";
 import imgMovies from "/images/projects/web-movies.png";
 import imgHeadset from "/images/projects/web-headset.png";
 
-//imagens das skills
-import imgReact from '/images/api/react.svg'
+// Imagens das habilidades
+import imgHtml from '/images/skills/html.svg';
+import imgCss from '/images/skills/css.svg';
+import imgJs from '/images/skills/js.svg';
+import imgReact from '/images/skills/react.svg';
+import imgNode from '/images/skills/node.svg';
+import imgMongodb from '/images/skills/mongodb.svg';
+import imgVercel from '/images/skills/vercel.svg';
 
-//api skills
+import imgLinux from '/images/skills/linux.svg'
+import imgWindows from '/images/skills/windows.svg'
+import imgNext from '/images/skills/next.svg'
+import imgGithub from '/images/skills/github.svg'
+
+//faltou
+/*
+import imgExpress from '/images/skills/express.svg';
+import imgRender from '/images/skills/render.svg';
+*/
+// Dados das habilidades
 export const skillsData = [
     {
         title: "Frontend",
         info: [
-            "User research",
-            "Wireframing",
-            "Prototyping",
-            "Interaction Design"
+            "Criação de interfaces de usuário dinâmicas e responsivas.",
+            "Desenvolvimento de componentes interativos e reutilizáveis.",
+            "Otimização para performance e acessibilidade."
         ],
         skills: [
-            {
-                name: "React.js",
-                image: imgReact
-            }
+            { name: "HTML", image: imgHtml },
+            { name: "CSS", image: imgCss },
+            { name: "JavaScript", image: imgJs },
+            { name: "React", image: imgReact }
         ]
     },
     {
         title: "Backend",
         info: [
-            "User research",
-            "Wireframing",
-            "Prototyping",
-            "Interaction Design"
+            "Construção de APIs robustas e escaláveis.",
+            "Gerenciamento de banco de dados e autenticação de usuários.",
+            "Implementação de lógica de negócios e integrações com serviços externos."
         ],
         skills: [
-            {
-                name: "React.js",
-                image: imgReact
-            }
+            { name: "Node.js", image: imgNode },
+            { name: "Express", image: imgVercel },
+            { name: "MongoDB", image: imgMongodb }
         ]
     },
     {
         title: "DevOps",
         info: [
-            "User research",
-            "Wireframing",
-            "Prototyping",
-            "Interaction Design"
+            "Implantação e gerenciamento de aplicações em ambientes de produção.",
+            "Configuração de pipelines de integração e entrega contínuas (CI/CD).",
+            "Monitoramento e manutenção de sistemas."
         ],
         skills: [
-            {
-                name: "React.js",
-                image: imgReact
-            }
+            { name: "Vercel", image: imgVercel },
+            { name: "Render", image: imgVercel }
         ]
     }
 ];
 
-//api projects
+// Dados dos projetos
 export const projectsData = [
     {
-        title: "Dashboard",
-        subTitle: "Data Visualization Platform",
+        title: "Dashboard de Gestão",
+        subTitle: "Plataforma de Visualização de Dados",
         details: [
-            "Interactive charts and graphs for data analysis.",
-            "Real-time updates and customizable widgets."
+            "Gráficos e relatórios interativos para análise de dados.",
+            "Atualizações em tempo real e widgets personalizáveis para monitoramento."
         ],
         image: imgAutomec
     },
     {
-        title: "Headset",
-        subTitle: "E-commerce Product Page",
+        title: "Página de E-commerce",
+        subTitle: "Página de Produto para Fones de Ouvido",
         details: [
-            "Detailed product specifications and images.",
-            "User reviews and rating system."
+            "Especificações detalhadas do produto e galeria de imagens.",
+            "Sistema de avaliações e classificações de usuários."
         ],
         image: imgHeadset
     },
     {
-        title: "Filmes",
-        subTitle: "Movie Recommendation App",
+        title: "Catálogo de Filmes",
+        subTitle: "Aplicação de Recomendação de Filmes",
         details: [
-            "Search and filter movies by genre and year.",
-            "User-specific recommendations based on viewing history."
+            "Busca e filtro de filmes por gênero, ano e categoria.",
+            "Recomendações personalizadas baseadas no histórico de visualização do usuário."
         ],
         image: imgMovies
     },
     {
-        title: "Restaurante",
-        subTitle: "Restaurant Landing Page",
+        title: "Site de Restaurante",
+        subTitle: "Página de Apresentação e Cardápio Online",
         details: [
-            "Online menu with high-quality images.",
-            "Reservation system and contact information."
+            "Cardápio online com imagens de alta qualidade.",
+            "Sistema de reservas integrado e informações de contato."
         ],
         image: imgRestaurant
     },
     {
-        title: "Grafico de Avaliações",
-        subTitle: "Review Analytics Chart",
+        title: "Análise de Avaliações",
+        subTitle: "Gráfico Interativo de Feedback",
         details: [
-            "Visual representation of user feedback.",
-            "Filter reviews by date and star rating."
+            "Representação visual do feedback e avaliações de usuários.",
+            "Filtros para visualizar avaliações por data e nota."
         ],
         image: imgGraphic
     }

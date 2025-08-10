@@ -1,9 +1,14 @@
+
+import imgProfile from '/images/about/profile.jpg';
+
 export default function AboutPage(){
     return (
         <section className="container-about">
             <article className="about-head">
                 <div className="profile-image">
-                    <div className="layout-image"></div>
+                    <div className="layout-image">
+                        <img src={imgProfile} alt="imagem do autor" />
+                    </div>
                 </div>
                 <div className="profile-resume">
                     <h1>Um pouco sobre mim</h1>

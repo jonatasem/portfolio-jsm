@@ -11,7 +11,7 @@
 
         .project-item {
             width: 100%;
-            max-width: 329px;
+            max-width: calc(100% / 3 - 1.5rem);
             background-color: #ffffff46;
             padding: 1.5rem;
 
@@ -76,3 +76,42 @@
         }
     }
 }
+
+@media (max-width:999px) {
+    .container-skills {
+        .skills-main {
+            justify-content: center;
+
+            .project-item {
+                max-width: calc(100% / 2 - 1rem);
+                margin: 0 1rem 1rem 0;
+            }
+        }
+    }
+}
+
+
+@media (max-width:768px) {
+    .container-skills {
+        .skills-main {
+            .project-item {
+                max-width: none;
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media (max-width:399px) {
+    .container-skills {
+        .skills-main {
+            .project-item {
+                max-width: none;
+                width: 100%;
+                padding: 1rem;
+            }
+        }
+    }
+}
+

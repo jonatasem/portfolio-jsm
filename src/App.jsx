@@ -5,14 +5,14 @@ import ProjectsPage from './pages/projectsPage'
 import SkillsPage from './pages/skillsPage'
 
 //components
-import FooterComponent from './components'
+import FooterComponent from './components/footer'
 
 export default function App() {
   return (
     <main className='container-app'>
       <HomePage />
-      <ProjectsPage />
       <AboutPage />
+      <ProjectsPage />
       <SkillsPage />
       <FooterComponent />
     </main>
