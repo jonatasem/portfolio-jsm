@@ -20,7 +20,7 @@ export default function ProjectsPage(){
                                     <li key={detailIndex}>{detail}</li>
                                 ))}
                             </ul>
-                            <button>Ver mais</button>
+                            <a href={project.link}>Ver mais</a>
                         </div>
                         <div className="item-right">
                             <img src={project.image} alt={project.title} />

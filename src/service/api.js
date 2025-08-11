@@ -20,11 +20,6 @@ import imgMac from '/images/skills/mac.svg';
 import imgNext from '/images/skills/next.svg'
 import imgGithub from '/images/skills/github.svg'
 
-//faltou
-/*
-import imgExpress from '/images/skills/express.svg';
-import imgRender from '/images/skills/render.svg';
-*/
 // Dados das habilidades
 export const skillsData = [
     {
@@ -90,7 +85,8 @@ export const projectsData = [
             "Cardápio online com imagens de alta qualidade.",
             "Sistema de reservas integrado e informações de contato."
         ],
-        image: imgRestaurant
+        image: imgRestaurant,
+        link: "https://web-ecommerce-five.vercel.app"
     },
     ,
     {
@@ -100,7 +96,8 @@ export const projectsData = [
             "Representação visual do feedback e avaliações de usuários.",
             "Filtros para visualizar avaliações por data e nota."
         ],
-        image: imgGraphic
+        image: imgGraphic,
+        link: "https://graphic-review-sigma.vercel.app"
     },
     {
         title: "Página de E-commerce",
@@ -109,7 +106,8 @@ export const projectsData = [
             "Especificações detalhadas do produto e galeria de imagens.",
             "Sistema de avaliações e classificações de usuários."
         ],
-        image: imgHeadset
+        image: imgHeadset,
+        link: "https://jonatasem.github.io/headphones"
     },
     {
         title: "Catálogo de Filmes",
@@ -118,7 +116,8 @@ export const projectsData = [
             "Busca e filtro de filmes por gênero, ano e categoria.",
             "Recomendações personalizadas baseadas no histórico de visualização do usuário."
         ],
-        image: imgMovies
+        image: imgMovies,
+        link: "https://web-movies-three.vercel.app"
     },
     {
         title: "Dashboard de Gestão",
@@ -127,6 +126,7 @@ export const projectsData = [
             "Gráficos e relatórios interativos para análise de dados.",
             "Atualizações em tempo real e widgets personalizáveis para monitoramento."
         ],
-        image: imgAutomec
+        image: imgAutomec,
+        link: "https://client-automec-pi-2025.vercel.app"
     }
 ];
