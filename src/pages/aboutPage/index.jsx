@@ -22,7 +22,7 @@ export default function AboutPage(){
                         Fora do universo do código, encontro inspiração na música, tocando violão e violino, e na leitura de um bom livro.
                     </p>
                     <div className="button-about">
-                        <p>Vamos nos conectar!</p>
+                        <a href="#contact">Vamos nos conectar!</a>
                     </div>
                 </div>
             </article>

@@ -35,3 +35,26 @@
         }
     }
 }
+
+@media (max-width:499px) {
+    .container-together {
+        flex-direction: column;
+        max-height: none;
+        padding: 1rem;
+
+        .together-left {
+            h1 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        .together-right {
+            display: flex;
+            justify-content: end;
+            width: 100%;
+            margin: 1rem 0 0 0;
+        }
+    }
+}

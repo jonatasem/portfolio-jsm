@@ -26,5 +26,20 @@
             }
         }
     }
-
 }
+
+@media (max-width:499px) {
+    .container-footer {
+        .rede-social {
+            ul {
+                flex-direction: column;
+                background-color: red;
+
+                li {
+                    background-color: blue;
+                }
+            }
+        }
+    }
+}
+
