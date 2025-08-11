@@ -27,16 +27,25 @@
         }
     }
 }
+@media (max-width:999px) {
+    .container-footer {
+        .rede-social {
+            margin-bottom: 1.5rem;
+        }
+    }
+}
 
 @media (max-width:499px) {
     .container-footer {
         .rede-social {
             ul {
                 flex-direction: column;
-                background-color: red;
+                
 
                 li {
-                    background-color: blue;
+                    font-size: 14px;
+                    margin: 0 0.5rem 0.5rem 0;
+                    justify-content: end;
                 }
             }
         }

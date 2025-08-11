@@ -13,12 +13,19 @@ import imgReact from '/images/skills/react.svg';
 import imgNode from '/images/skills/node.svg';
 import imgMongodb from '/images/skills/mongodb.svg';
 import imgVercel from '/images/skills/vercel.svg';
+import imgFigma from '/images/skills/figma.svg';
+import imgNext from '/images/skills/next.svg';
+import imgGithub from '/images/skills/github.svg';
+import imgDocker from '/images/skills/docker.svg';
+import imgGitlab from '/images/skills/gitlab.svg';
+import imgJest from '/images/skills/jest.svg';
+import imgMysql from '/images/skills/mysql.svg';
+import imgSql from '/images/skills/sql.svg';
 
 import imgLinux from '/images/skills/linux.svg'
 import imgWindows from '/images/skills/windows.svg'
 import imgMac from '/images/skills/mac.svg';
-import imgNext from '/images/skills/next.svg'
-import imgGithub from '/images/skills/github.svg'
+import imgAndroid from '/images/skills/android.svg';
 
 // Dados das habilidades
 export const skillsData = [
@@ -34,7 +41,9 @@ export const skillsData = [
             { name: "CSS", image: imgCss },
             { name: "JavaScript", image: imgJs },
             { name: "React", image: imgReact },
-            { name: "Next", image: imgNext }
+            { name: "Next", image: imgNext },
+            { name: "Figma", image: imgFigma },
+            { name: "GitHub", image: imgGithub }
         ]
     },
     {
@@ -47,7 +56,9 @@ export const skillsData = [
         skills: [
             { name: "Node.js", image: imgNode },
             { name: "Express", image: imgVercel },
-            { name: "MongoDB", image: imgMongodb }
+            { name: "MongoDB", image: imgMongodb },
+            { name: "MySQL", image: imgMysql },
+            { name: "SQL", image: imgSql}
         ]
     },
     {
@@ -59,7 +70,9 @@ export const skillsData = [
         ],
         skills: [
             { name: "Vercel", image: imgVercel },
-            { name: "Render", image: imgVercel }
+            { name: "GitLab", image: imgGitlab },
+            { name: "Docker", image: imgDocker },
+            { name: "Jest", image: imgJest }
         ]
     },
     {
@@ -71,7 +84,8 @@ export const skillsData = [
         skills: [
             { name: "Linux", image: imgLinux },
             { name: "Windows", image: imgWindows },
-            { name: "macOS", image: imgMac }
+            { name: "macOS", image: imgMac },
+            { name: "Android", image: imgAndroid }
         ]
     }
 ];
